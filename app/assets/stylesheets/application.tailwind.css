@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+
+@layer components {
+  .btn-primary {
+    @apply py-2 px-4 bg-blue-200;
+  }
+}
+
+*/
+
+@font-face {
+  font-family: 'Aeroblade';
+  src: url('plank.TTF');
+}
+
+.font-main {
+  font-family: 'Aeroblade';
+  letter-spacing: 12px;
+}
+
+@font-face {
+  font-family: 'Digital';
+  src: url('DS-DIGI.TTF');
+}
+
+.font-digital {
+  font-family: 'Digital';
+}
+
+
+@font-face {
+  font-family: 'Poetsen';
+  src: url('PoetsenOne-Regular.ttf');
+}
+
+.font-pro {
+  font-family: 'Poetsen';
+}
